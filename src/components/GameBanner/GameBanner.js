@@ -1,5 +1,4 @@
 import React from "react";
-import { checkGuess } from "../../game-helpers";
 
 function GameBanner({ answer, gameStatus, numOfGuesses }) {
   if (gameStatus === "won") {
